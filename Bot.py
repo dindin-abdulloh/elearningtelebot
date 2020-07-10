@@ -13,7 +13,7 @@ def sendmsg(message,text):
 
 @bot.message_handler(commands=['start'])
 def startmsg(message):
-    text = '''<b>Selamat Datang di E-Learning Bot UIN Sunan Gunung Djati Bandung</b>\n Silahkan Ketikkan <b> Hello </b> dan dapatkan balasan dari bot ini'''
+    text = '''<b>Selamat Datang di E-Learning Bot UIN Sunan Gunung Djati Bandung</b>\n Silahkan Ketikkan <b.Hello </b> dan dapatkan balasan dari bot ini'''
     bot.send_message(message.chat.id,text,parser_mode='HTML')
 
 
