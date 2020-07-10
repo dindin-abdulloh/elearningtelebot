@@ -25,10 +25,9 @@ def replay_to_message(message):
     elif 'hello' in message.text.lower():
         sendmsg(message, 'Hai, {} Semoga Hari Mu Menyenangkan '.format(message.from_user.first_name))
 
-// bagian
-server
 
 
+#server
 @server.route('/' + TOKEN, methods=['POST'])
 def getMessage():
     bot.process_new_updates([telebot.types.Update.de_json(request.stream.read().decode('utf-8'))])
