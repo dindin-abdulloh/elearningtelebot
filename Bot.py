@@ -7,10 +7,7 @@ Bot = telebot.TeleBot(token=Token)
 server = Flask(__name__)
 
 
-def sendmsg(message.
-
-
-    text):
+def sendmsg(message.text):
 bot.send_message(message.chat.id, text)
 
 
