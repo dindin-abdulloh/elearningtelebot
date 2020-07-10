@@ -3,7 +3,7 @@ import telebot
 from flask import Flask, request
 
 TOKEN = '1212381391:AAEJQ4gLSsVaay-2ZupoQteHh100qR0SkY0'
-Bot = telebot.TeleBot(token=Token)
+Bot = telebot.TeleBot(token=TOKEN)
 server = Flask(__name__)
 
 
